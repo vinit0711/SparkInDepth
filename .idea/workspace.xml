@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7626291-7c8f-4b0d-86fd-e42726f26462" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/accumulatorExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/googleAdSearchesCleanTop.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/loglevelAnalysis.scala" afterDir="false" />
+    <list default="true" id="c7626291-7c8f-4b0d-86fd-e42726f26462" name="Changes" comment="log analysis">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chaptersPerCourse.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/customerAnalysis.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/googleAdSearches.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/googleAdSearches.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +28,9 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2DwlUEwk6lMzzqIH4PsR5ciPuPV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,7 +42,21 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.loglevelAnalysis">
+  <component name="RunManager" selected="Application.chaptersPerCourse">
+    <configuration name="chaptersPerCourse" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chaptersPerCourse" />
+      <module name="SparkInDepth" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="customerAnalysis" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="customerAnalysis" />
+      <module name="SparkInDepth" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="googleAdSearches" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="googleAdSearches" />
       <module name="SparkInDepth" />
@@ -57,8 +73,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.loglevelAnalysis" />
+        <item itemvalue="Application.chaptersPerCourse" />
         <item itemvalue="Application.googleAdSearches" />
+        <item itemvalue="Application.customerAnalysis" />
+        <item itemvalue="Application.loglevelAnalysis" />
       </list>
     </recent_temporary>
   </component>
@@ -85,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661621853711</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="log analysis">
+      <created>1663055890845</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663055890845</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="log analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="log analysis" />
   </component>
 </project>
