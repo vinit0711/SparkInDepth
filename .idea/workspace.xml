@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SparkInDepth:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7626291-7c8f-4b0d-86fd-e42726f26462" name="Changes" comment="log analysis">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chaptersPerCourse.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/customerAnalysis.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SparkInDepth_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/courseRanking.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/topMovies.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/googleAdSearches.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/googleAdSearches.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +41,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/infinity/Desktop",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Application.chaptersPerCourse">
+}]]></component>
+  <component name="RunManager" selected="Application.topMovies">
     <configuration name="chaptersPerCourse" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="chaptersPerCourse" />
+      <module name="SparkInDepth" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="courseRanking" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="courseRanking" />
       <module name="SparkInDepth" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="loglevelAnalysis" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="loglevelAnalysis" />
+    <configuration name="topMovies" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="topMovies" />
       <module name="SparkInDepth" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,10 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.topMovies" />
+        <item itemvalue="Application.courseRanking" />
         <item itemvalue="Application.chaptersPerCourse" />
         <item itemvalue="Application.googleAdSearches" />
         <item itemvalue="Application.customerAnalysis" />
-        <item itemvalue="Application.loglevelAnalysis" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663055890845</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="log analysis">
+      <created>1663135123386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663135123386</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,5 +154,9 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="log analysis" />
     <option name="LAST_COMMIT_MESSAGE" value="log analysis" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
